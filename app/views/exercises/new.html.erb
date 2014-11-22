@@ -1,0 +1,19 @@
+<div id="register">
+  <h2> Add an exercise </h2>
+
+<%= form_for [@workout, @exercise] do |f| %>
+  <%= f.label :name %><br>
+  <%= f.text_field :name %><br>
+
+  <%= f.label :reps %><br>
+  <%= f.text_field :reps %><br>
+
+  <%= f.label :sets %><br>
+  <%= f.text_field :sets %><br>
+
+  <%= f.label :weight %><br>
+  <%= f.url_field :weight %><br>
+
+  <%= f.submit %>
+<%end%>
+</div>

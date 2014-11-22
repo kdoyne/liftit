@@ -1,0 +1,5 @@
+<h1>Workout!</h1>
+
+<h2><%=@workout.date_time%></h2>
+
+<%= link_to("Add Exercise", new_user_workout_exercise_path(@user.id, @workout.id))%>

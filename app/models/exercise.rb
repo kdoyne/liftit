@@ -1,6 +1,7 @@
 class Exercise < ActiveRecord::Base
-  validates :date, { presence: :true }
-  validates :time, { presence: :true }
-  validates :title, { presence: :true }
+  validates :name, { presence: :true }
+  validates :weight, { presence: :true }
+  validates :reps, { presence: :true }
+  validates :sets, { presence: :true }
   belongs_to :workout
 end

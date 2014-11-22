@@ -1,0 +1,10 @@
+<div id="register">
+  <h2> Create a workout </h2>
+
+  <%= form_for ([@user, @workout]) do |f| %>
+    <%= f.label :date_time %>
+    <%= f.text_field :date_time %><br>
+    
+    <%= f.submit "Add Exercises" %>
+  <% end %> 
+</div>

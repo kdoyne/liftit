@@ -32,6 +32,11 @@ gem 'spring',        group: :development
 # Use ActiveModel has_secure_password
   gem 'bcrypt-ruby', '~> 3.1.2'
 
+gem 'rspec-rails'
+
+gem 'pry-rails'
+
+gem 'shoulda-matchers'
 
 # Use unicorn as the app server
 # gem 'unicorn'
